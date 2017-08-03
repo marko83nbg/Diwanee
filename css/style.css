@@ -1,10 +1,301 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Dec 7, 2016, 6:14:32 PM
-    Author     : Marko
-*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-img {
+    padding: 125px 0 200px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.mob-par{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dash{
+    display: none;
+}
+
+
+.desc-par{
+    display: none;
+}
+
+/* END OF SECTION MAIN-IMG */
+
+.about-work article{
+    padding: 50px 25px;
+}
+
+.about-work .development,
+.about-work .team{
+    background-color: #fbfbfb;
+}
+
+.about-work .design{
+    background-color: #ededed;
+}
+
+.about-work img{
+    margin: 30px auto;
+}
+
+.about-work h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about-work article p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* END OF SECTION ABOUT-WORK */
+
+.jobs{
+    padding: 90px 0;
+}
+
+.over-headline,
+h2,
+.jobs h4{
+    text-transform: uppercase;
+}
+
+.over-headline{
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+h2 img{
+    margin: 40px auto;
+}
+
+.jobs .under-headline{
+    font-size: 20px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.jobs .tablet-articles{
+    display: none;
+}
+
+.jobs .front-end,
+.jobs .designer{
+    background-color: #f8f7f5;
+}
+
+.jobs .front-end,
+.jobs .designer,
+.jobs .menager{
+    padding: 30px 15px 35px;
+}
+
+.jobs h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.jobs article p{
+    font-size: 15px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.jobs article ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.jobs article ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.jobs article ul li a{
+    color: #c41230;
+}
+
+.jobs article .button{
+    display: none;
+}
+
+.jobs .upload{
+    display: inline-block;
+    padding: 20px 23px;
+    background-color: #d7d7d7;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #535353;
+    position: relative;
+    top: 75px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 75px;
+    transition: 1s ease;
+}
+
+.jobs .upload:hover{
+    text-decoration: none;
+    background-color: #ebeaea;
+}
+
+/* END OF SECTION JOBS */
+
+.about-us{
+    background-color: #fbfbfb;
+    padding: 40px 0 65px;
+}
+
+.about-us p{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* END OF SECTION ABOUT-US */
+
+.social{
+    padding: 85px 0;
+}
+
+.social .over-headline{
+    margin-bottom: 35px;
+}
+
+.social ul{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+}
+
+.social ul li{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #20b9ff;
+    text-align: center;
+    margin-right: 10px;
+    transition: 1s ease;
+}
+
+.social ul li:last-of-type{
+    background-color: #3c5a9a;
+    margin-right: 0px;
+}
+
+.social ul li:hover{
+    background-color: #6ccdfa;
+}
+
+.social ul li:last-of-type:hover{
+    background-color: #4a73cc;
+}
+
+.social ul li a{
+    display: block;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* END OF SECTION SOCIAL */
+
+.footer1{
+    background-color: #222222;
+    padding-top: 85px;
+}
+
+.footer1 article{
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+.footer1 h4{
+    color: #f2f2f2;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.footer1 h4 span{
+    color: #c41230;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.footer1 p{
+    color: #5b5b5b;
+    font-size: 16px;
+}
+
+.footer1 p span{
+    display: block;
+}
+
+.footer1 ul{
+    list-style: none;
+    padding:  0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer1 ul li{
+    display: inline-block;
+}
+
+.footer1 ul li a{
+    display: block;
+    color: #5b5b5b;
+    font-size: 40px;
+    margin-right: 25px;
+
+}
+
+.footer1 ul li:last-of-type a{
+    font-size: 14px;
+    margin-right: 0px;
+
+}
+
+.footer2{
+    background-color: #1e1e1e;
+    padding: 15px 0 25px;
+}
+
+.footer2 p{
+   font-size: 12px;
+   color: #444444;
+   text-align: center;
+}
+
+.footer2 ul{
+   display: none;
+}
+
+
+
 

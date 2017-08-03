@@ -1,25 +1,191 @@
 @media(min-width:768px){
- 
-    
-    
+
+    h1{
+        font-size: 70px;
+    }
+
+    .mob-par{
+        display: none;
+    }
+
+    .desc-par{
+        display: block;
+        font-size: 24px;
+        text-align: center;
+        width: 550px;
+        margin: 0 auto;
+
+    }
+
+    /* END OF SECTION MAIN-IMG */
+
+    .about-work article{
+        width: 33%;
+        float: left;
+    }
+
+    /* END OF SECTION ABOUT-WORK */
+
+    h2 {
+        font-size: 50px;
+
+    }
+
+
+    .jobs .under-headline{
+        width: 700px;
+        margin: 0 auto;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .jobs .tablet-articles{
+        display: block;
+    }
+
+    .jobs .mobile-articles{
+        display: none;
+    }
+
+    .jobs article .button{
+        display: inline-block;
+        text-transform: uppercase;
+        color: #222222;
+        border: 1px solid #222222;
+        font-size: 14px;
+        padding: 15px 40px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        float: right;
+
+    }
+
+    .jobs .menager .button{
+        color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+    }
+
+    .jobs .front-end,
+    .jobs .designer{
+        background-color: #fff;
+        padding: 50px 0;
+    }
+
+    .jobs .menager{
+        background-color: #000;
+        padding: 50px 0;
+    }
+
+    .jobs .tablet-articles .content{
+        width: 70%;
+        float: left;
+    }
+
+    .jobs h4 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .jobs article p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .jobs .menager h4,
+    .jobs .menager p{
+        color: #f2f2f2;
+    }
+
+    .jobs article ul li {
+        border: 1px solid #bbbbbb;
+        padding: 12px 15px;
+    }
+
+    .jobs .menager ul li {
+        border: 1px solid #f2f2f2;
+    }
+
+    .jobs .menager ul li a{
+        color: #f2f2f2;
+    }
+
+    /* END OF SECTION JOBS */
+
+    .footer1 article{
+        width: 33%;
+        float: left;
+        padding-left: 15px;
+    }
+
+    .footer1 ul{
+        display: none;
+    }
+
+    .footer2 p{
+        width: 50%;
+        float: left;
+    }
+
+    .footer2 ul{
+        display: block;
+        list-style: none;
+        padding:  0;
+        text-align: center;
+        width: 50%;
+        float: right;
+    }
+
+    .footer2 ul li{
+        display: inline-block;
+    }
+
+    .footer2 ul li a{
+        display: block;
+        color: #5b5b5b;
+        font-size: 40px;
+        margin-right: 25px;
+
+    }
+
+    .footer2 ul li:last-of-type a{
+        font-size: 14px;
+        margin-right: 0px;
+    }
+
+
 }
 
 
 
 
 @media(min-width:992px){
-    
+
+    h1{
+        font-size: 80px;
+    }
+
+    .dash{
+        display: block;
+        margin-top: 40px;
+    }
+
+    .dash img{
+        margin: 0 auto;
+    }
+
+    /* END OF SECTION MAIN-IMG */
 
 
 }
-    
-    
+
+
 
 
 @media(min-width:1200px){
-   
-    
-    
+
+
+
 
 
 }
