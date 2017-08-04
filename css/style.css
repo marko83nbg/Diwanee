@@ -1,6 +1,99 @@
 body{
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
+
+/* NAV */
+
+nav{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.desc-nav{
+    display: none;
+}
+
+.logo{
+    display: inline-block;
+    float: left;
+}
+
+.nav-toggle{
+    float: right;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.bar{
+    display: block;
+    width: 24px;
+    height: 3px;
+    border-radius: 1px;
+    background-color: #262626;
+    margin-bottom: 5px;
+    transition: 1s ease;
+}
+
+.bar:last-of-type{
+    margin-bottom: 0px;
+}
+
+.nav-toggle:hover .bar{
+    background-color: #949393;
+}
+
+.mobil-nav{
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(38,38,38,0.95);
+    padding-bottom: 45px;
+    padding-top: 87px;
+    margin-bottom: 0;
+    color: #9b9b9b;
+    display: none;
+}
+
+.mobil-nav li{
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mobil-nav li:last-of-type{
+    font-size: 16px;
+    padding-bottom: 0;
+    padding-top: 55px;
+}
+
+.mobil-nav li a{
+    color: #9b9b9b;
+}
+
+.mobil-nav li a.nav-social{
+    font-size: 35px;
+    margin-left: 70px;
+    transition: 1s ease;
+}
+
+.mobil-nav li a.nav-social:last-of-type{
+    margin-left: 20px;
+}
+
+.mobil-nav li a.nav-social:hover{
+    color: #e1dfdf;
+}
+
+/* END OF NAV */
+
+/* SECTION MAIN-IMG */
 
 .main-img {
     padding: 125px 0 200px;
@@ -33,6 +126,8 @@ h1{
 
 /* END OF SECTION MAIN-IMG */
 
+/* SECTION ABOUT-WORK */
+
 .about-work article{
     padding: 50px 25px;
 }
@@ -63,6 +158,8 @@ h1{
 }
 
 /* END OF SECTION ABOUT-WORK */
+
+/* SECTION JOBS */
 
 .jobs{
     padding: 90px 0;
@@ -164,6 +261,8 @@ h2 img{
 
 /* END OF SECTION JOBS */
 
+/* SECTION ABOUT-US */
+
 .about-us{
     background-color: #fbfbfb;
     padding: 40px 0 65px;
@@ -175,6 +274,8 @@ h2 img{
 }
 
 /* END OF SECTION ABOUT-US */
+
+/* SECTION SOCIAL */
 
 .social{
     padding: 85px 0;
@@ -225,6 +326,8 @@ h2 img{
 
 /* END OF SECTION SOCIAL */
 
+/* FOOTER */
+
 .footer1{
     background-color: #222222;
     padding-top: 85px;
@@ -272,13 +375,18 @@ h2 img{
     color: #5b5b5b;
     font-size: 40px;
     margin-right: 25px;
+    transition: 1s ease;
 
 }
 
 .footer1 ul li:last-of-type a{
     font-size: 14px;
     margin-right: 0px;
+    text-decoration: none;
+}
 
+.footer1 ul li a:hover{
+    color: #e1dfdf;
 }
 
 .footer2{
@@ -287,15 +395,15 @@ h2 img{
 }
 
 .footer2 p{
-   font-size: 12px;
-   color: #444444;
-   text-align: center;
+    font-size: 12px;
+    color: #444444;
+    text-align: center;
 }
 
 .footer2 ul{
-   display: none;
+    display: none;
 }
 
 
-
+/* END OF FOOTER */
 
